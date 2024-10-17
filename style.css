@@ -28,7 +28,9 @@
     border-radius: 10px;
     background-color: #dddddd;
 }
-
+#infi{
+    font-family: penSansRegular;
+}
 #slogan {
     font-family: Sacramento-Regular;
 }
