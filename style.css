@@ -19,33 +19,40 @@
     src: url(fonts/Sacramento-Regular.ttf);
 }
 
+*{
+    color: darkslategray
+}
+
 #card {
     font-family: OpenSans-Regular;
-    max-width: 300px;
-    min-width: 200px;
-    height: 200px;
+    width: 360px;
+    height: 240px;
+    box-sizing: border-box;
     margin: auto;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px;
     border-radius: 10px;
     background-color: whitesmoke;
-    color: darkslategray
+    position: relative;
+}
+
+#slogan {
+    font-family: Sacramento-Regular;
+    font-size: 20px;
+    position: absolute;
+    top: -1px;
 }
 #infi{
     font-family: OpenSans-Regular;
     font-size: 16px;
 }
-#slogan {
-    font-family: Sacramento-Regular;
-    font-size: 20px
-}
 
 #main{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 55px;
+    left: 10px;
 }
 #name {
     font-family: Roboto-Black;
@@ -53,7 +60,9 @@
 }
 
 #bottom {
-    text-align: right;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
 }
 #thepan{
     color: crimson
