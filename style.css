@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSansLight;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSansLightItalic;
+    src: url(fonts/OpenSans-LightItalic.ttf);
+}
+
+#card {
+    font-family: OpenSansRegular;
+    width:  420px;
+    height: 280px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: #dddddd;
+}
+
+#slogan {
+    font-family: OpenSansLightItalic;
+}
+
+#main{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 82px;
+}
+#name {
+    font-family: Roboto-Bold;
+    font-size: 3em;
+}
+
+#bottom {
+    text-align: right;
+}
+
+a:link { 
+    color: rgb(119, 106, 236);
+    text-decoration: none; 
+  } 
+a:visited { 
+    text-decoration: none; 
+  } 
+a:hover { 
+    font-size: 1.1em;
+    text-decoration: none; 
+  } 
+a:active { 
+    text-decoration: none; 
+  }
+  
