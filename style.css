@@ -29,7 +29,7 @@
     height: 240px;
     box-sizing: border-box;
     margin: auto;
-    padding: 20px;
+    padding: 00px;
     border-radius: 10px;
     background-color: whitesmoke;
     position: relative;
@@ -39,7 +39,8 @@
     font-family: Sacramento-Regular;
     font-size: 20px;
     position: absolute;
-    top: -1px;
+    top: 0px;
+    left: 30px
 }
 #infi{
     font-family: OpenSans-Regular;
@@ -51,7 +52,7 @@
     width: auto;
     height: auto;
     position: relative;
-    top: 55px;
+    top: 90px;
     left: 10px;
 }
 #name {
