@@ -1,13 +1,17 @@
 @font-face {
-    font-family: Roboto-Bold;
-    src: url(fonts/Roboto-Bold.ttf);
+    font-family: Roboto-Black;
+    src: url(fonts/Roboto-Black.ttf);
 }
 @font-face {
-    font-family: OpenSansRegular;
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
     src: url(fonts/OpenSans-Regular.ttf);
 }
 @font-face {
-    font-family: OpenSansLight;
+    font-family: OpenSans-Light;
     src: url(fonts/OpenSans-Light.ttf);
 }
 @font-face {
@@ -16,7 +20,7 @@
 }
 
 #card {
-    font-family: OpenSansRegular;
+    font-family: OpenSans-Regular;
     max-width: 300px;
     min-width: 200px;
     height: 200px;
@@ -26,22 +30,27 @@
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
-    background-color: #dddddd;
+    background-color: whitesmoke;
 }
 #infi{
-    font-family: penSansRegular;
+    font-family: penSans-Regular;
+    color: tomato;
+    font-size: 24px;
 }
 #slogan {
     font-family: Sacramento-Regular;
+    color: slateblue;
+    font-size: 20px
 }
 
 #main{
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: darkslategray
 }
 #name {
-    font-family: Roboto-Bold;
+    font-family: Roboto-Black;
     font-size: 3em;
 }
 
@@ -51,15 +60,19 @@
 
 a:link { 
     text-decoration: none; 
+    color: slateblue;
   } 
 a:visited { 
     text-decoration: none; 
+    color: slateblue;
   } 
 a:hover { 
     font-size: 1.1em;
     text-decoration: none; 
+    color: slateblue;
   } 
 a:active { 
     text-decoration: none; 
+    color: slateblue;
   }
   
