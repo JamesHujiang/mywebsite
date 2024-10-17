@@ -17,9 +17,9 @@
 
 #card {
     font-family: OpenSansRegular;
-    max-width: 330px;
-    min-width: 220px;
-    height: 220px;
+    max-width: 300px;
+    min-width: 200px;
+    height: 200px;
     margin: auto;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -37,8 +37,8 @@
 
 #main{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 #name {
     font-family: Roboto-Bold;
