@@ -19,10 +19,6 @@
     src: url(fonts/Sacramento-Regular.ttf);
 }
 
-*{
-    color: darkslategray
-}
-
 #card {
     font-family: OpenSans-Regular;
     width: 360px;
@@ -32,6 +28,7 @@
     padding: 00px;
     border-radius: 10px;
     background-color: whitesmoke;
+    color: darkslategray;
     position: relative;
 }
 
@@ -65,7 +62,7 @@
     right: 30px;
     bottom: 20px;
 }
-#thepan{
+#thepan {
     color: crimson
 }
 
