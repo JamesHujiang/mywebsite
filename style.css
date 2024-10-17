@@ -51,10 +51,12 @@
     position: relative;
     top: 90px;
     left: 10px;
+    color: crimson;
+    font-family: Roboto-Black;
 }
 #name {
-    font-family: Roboto-Black;
     font-size: 3em;
+    color: slateblue
 }
 
 #bottom {
@@ -62,25 +64,22 @@
     right: 30px;
     bottom: 20px;
 }
-#thepan {
-    color: crimson
-}
 
 a:link { 
     text-decoration: none; 
-    color: slateblue;
+    color: darkslategray;
   } 
 a:visited { 
     text-decoration: none; 
-    color: slateblue;
+    color: darkslategray;
   } 
 a:hover { 
     font-size: 1.1em;
     text-decoration: none; 
-    color: slateblue;
+    color: darkslategray;
   } 
 a:active { 
     text-decoration: none; 
-    color: slateblue;
+    color: darkslategray;
   }
   
