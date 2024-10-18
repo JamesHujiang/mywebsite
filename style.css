@@ -30,7 +30,7 @@ body {
     margin: auto;
     border-radius: 16px;
     background-color: whitesmoke;
-    box-shadow: 4px 4px 16px silver;
+    box-shadow: 2px 2px 16px silver;
     position: relative;
 }
 #card:hover{
