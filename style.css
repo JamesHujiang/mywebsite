@@ -35,7 +35,7 @@ body {
 }
 #card:hover{
     animation-name: scales, fade;
-    animation-duration: 1.2s;
+    animation-duration: 1.6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
 }
