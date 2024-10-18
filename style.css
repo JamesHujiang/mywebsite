@@ -23,6 +23,7 @@ body {
     font-family: OpenSans-Regular;
     background-color: whitesmoke;
     color: darkslategray;
+    height: 100vh;
 }
 
 #card {
@@ -31,8 +32,8 @@ body {
     margin: auto;
     border-radius: 16px;
     background-color: white;
+    box-shadow: 4px 4px 8px silver;
     position: relative;
-
 }
 
 #slogan {
