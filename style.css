@@ -33,6 +33,20 @@ body {
     box-shadow: 4px 4px 16px silver;
     position: relative;
 }
+#card:hover{
+    animation-name: scales, fade;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes scales {
+    20%{transform: scale(1.02);}
+}
+@keyframes fade {
+    20%{opacity: 0.8;}
+}
+
 
 #slogan {
     font-family: Sacramento-Regular;
@@ -65,21 +79,15 @@ body {
     bottom: 20px;
 }
 
-a:link { 
-    text-decoration: none; 
+a:link{
     color: darkslategray;
-  } 
-a:visited { 
-    text-decoration: none; 
+}
+a:hover{
     color: darkslategray;
-  } 
-a:hover { 
-    font-size: 1.1em;
-    text-decoration: none; 
+}
+a:active{
     color: darkslategray;
-  } 
-a:active { 
-    text-decoration: none; 
+}
+a:visited{
     color: darkslategray;
-  }
-  
+}
