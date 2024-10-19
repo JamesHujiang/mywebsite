@@ -32,8 +32,6 @@ body {
     background-color: whitesmoke;
     box-shadow: 2px 2px 16px silver;
     position: relative;
-}
-#card:hover{
     animation-name: scales, fade;
     animation-duration: 1.6s;
     animation-iteration-count: infinite;
@@ -41,12 +39,11 @@ body {
 }
 
 @keyframes scales {
-    20%{transform: scale(1.02);}
+    20%{transform: scale(1.01);}
 }
 @keyframes fade {
     20%{opacity: 0.8;}
 }
-
 
 #slogan {
     font-family: Sacramento-Regular;
@@ -61,7 +58,6 @@ body {
 }
 
 #main{
-    text-align: center;
     color: crimson;
     font-family: Roboto-Black;
     position: absolute;
@@ -77,6 +73,7 @@ body {
     position: absolute;
     right: 30px;
     bottom: 20px;
+    font-size: 0.9em;
 }
 
 a:link{
