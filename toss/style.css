@@ -24,43 +24,34 @@ body {
     color: darkslategray;
 }
 
-#countNumber{
-    display: block;
+#myBox{
     text-align: center;
-    font-size: 10em;
-    font-family: Roboto-Black;
 }
 
-#box {
-    background-color: whitesmoke;
-    width: 300px;
-    height: auto;
+#labelBox{
+    background-color: silver;
+    width: 150px;
+    margin: 10px auto;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+#myLabel{
+    font-family: Roboto-Black;
+    font-size: 10em;
+}
+
+#myBut{
+    font-size: 2em;
+    width: 150px;
     padding: 10px;
-    border-radius: 16px;
-    text-align: center;
-    margin: auto;
-}
-
-#theNumber {
-    font-family: Roboto-Black;
-    font-size: 10em;
-}
-
-.buttons{
-    padding: 5px 15px;
-    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
     background-color: slateblue;
     color: whitesmoke;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: opacity 0.25s;
+    transition: 0.25s;
 }
 
-#resetBtn{
-    background-color: crimson;
-}
-
-.buttons:hover{
+#myBut:hover{
     opacity: 0.75;
 }

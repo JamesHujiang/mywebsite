@@ -1,1 +1,1 @@
-document.getElementById('myH1').textContent = Math.ceil(3.2)
+document.getElementById('myH1').textContent = Math.floor(Math.random() * 6) + 5
