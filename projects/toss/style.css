@@ -30,7 +30,8 @@ body {
 
 #labelBox{
     background-color: silver;
-    width: 150px;
+    width: 200px;
+    height: 200px;
     margin: 10px auto;
     border-radius: 8px;
     transition: 0.5s;
@@ -43,7 +44,7 @@ body {
 
 #myBut{
     font-size: 2em;
-    width: 150px;
+    width: 200px;
     padding: 10px;
     border: none;
     border-radius: 8px;
