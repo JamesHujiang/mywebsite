@@ -24,28 +24,37 @@ body {
     color: darkslategray;
 }
 
-#myBox{
+form{
+    background-color: white;
+    width: 300px;
+    height: 300px;
     text-align: center;
-}
-
-#labelBox{
-    background-color: silver;
-    width: 400px;
-    height: 200px;
+    padding: 20px 30px;
     margin: 10px auto;
-    border-radius: 8px;
-    transition: 0.5s;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 16px silver;
 }
 
-#myLabel{
-    font-family: Roboto-Black;
-    font-size: 10em;
+#tit{
+    font-family: OpenSans-Bold;
+    font-size: 1.5em;
+    color: slateblue;
+}
+
+#numBox{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+label{
+    font-family: OpenSans-Bold;
 }
 
 #myBut{
-    font-size: 2em;
+    font-size: 1.25em;
     width: 200px;
-    padding: 10px;
+    padding: 8px;
     border: none;
     border-radius: 8px;
     background-color: slateblue;
@@ -55,4 +64,12 @@ body {
 
 #myBut:hover{
     opacity: 0.75;
+}
+#myBut:active{
+    opacity: 1;
+}
+
+#result{
+    font-family: OpenSans-Bold;
+    font-size: 1.25em;
 }
