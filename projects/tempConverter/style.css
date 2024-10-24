@@ -25,31 +25,26 @@ body {
 }
 
 #myBox{
-    background-color: whitesmoke;
-    width: 240px;
-    margin: auto;
-    padding: 28px 20px;
-    border-radius: 16px;
-    background-color: whitesmoke;
-    box-shadow: 2px 2px 16px silver;
     text-align: center;
 }
 
 #labelBox{
-    text-align: center;
-    height: 220px;
-    padding-bottom: 20px;
-    margin: auto;
+    background-color: silver;
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 8px;
+    transition: 0.5s;
 }
 
 #myLabel{
-    font-family: OpenSans-Bold;
+    font-family: Roboto-Black;
     font-size: 10em;
 }
 
 #myBut{
     font-size: 2em;
-    width: 150px;
+    width: 200px;
     padding: 10px;
     border: none;
     border-radius: 8px;
@@ -60,7 +55,4 @@ body {
 
 #myBut:hover{
     opacity: 0.75;
-}
-#myBut:active{
-    opacity: 1;
 }
