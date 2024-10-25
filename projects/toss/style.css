@@ -35,11 +35,18 @@ body {
     text-align: center;
 }
 
+#recBox{
+    font-family: OpenSans-Bold;
+    font-size: 2em;
+    height: 30px;
+}
+
 #labelBox{
     text-align: center;
     height: 220px;
     padding-bottom: 20px;
     margin: auto;
+    transition: 0.25s
 }
 
 #myLabel{
@@ -53,7 +60,7 @@ body {
     padding: 10px;
     border: none;
     border-radius: 8px;
-    background-color: slateblue;
+    background-color: darkslategray;
     color: whitesmoke;
     transition: 0.25s;
 }

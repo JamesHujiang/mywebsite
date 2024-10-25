@@ -1,14 +1,23 @@
+const myLabel = document.getElementById('myLabel');
+
 let n = true;
-document.getElementById('myBut').onclick = function(){
+let rec = [];
+
+function toss(){
+    rec.length > 6 ? rec = []: rec = rec;
     n? document.getElementById('myBox').style.backgroundColor = 'silver':
     document.getElementById('myBox').style.backgroundColor = 'whitesmoke';
     n = !n;
-    if(Math.round(Math.random())){
-     document.getElementById('myLabel').textContent = '㊌';
-     document.getElementById('myLabel').style.color = 'slateblue'
+
+    let result = Math.round(Math.random());
+
+    if(result){
+        result = '<span style="color: slateblue;">㊌</span>';
     }
     else {
-     document.getElementById('myLabel').textContent = '㊋';
-     document.getElementById('myLabel').style.color = 'crimson'
+        result = '<span style="color: crimson;">㊋</span>';
     }
+    rec.push(result)
+    document.getElementById('recBox').innerHTML = rec.join("");
+    document.getElementById('myLabel').innerHTML = result;
 }
