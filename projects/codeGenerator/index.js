@@ -1,4 +1,4 @@
-const codeLenth = 128;
+const codeLenth = 256;
 const incNum = 1;
 const incLowLet = 1;
 const incCapLet = 1;
