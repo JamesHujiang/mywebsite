@@ -24,36 +24,39 @@ body {
     color: darkslategray;
 }
 
-form{
+#myBox{
     background-color: white;
-    width: 300px;
+    max-width: 700px;
+    min-width: 400px;
     height: 300px;
     text-align: center;
     padding: 20px 30px;
     margin: 10px auto;
-    border-radius: 16px;
-    background-color: whitesmoke;
-    box-shadow: 2px 2px 16px silver;
 }
 
 #tit{
     font-family: OpenSans-Bold;
-    font-size: 1.5em;
+    font-size: 2em;
     color: slateblue;
 }
 
 #numBox{
     text-align: center;
     font-size: 1.5em;
+    width: 100px;
+    margin: 8px;
+    border: solid 4px darkslategray;
+    border-radius: 8px;
 }
 
 label{
     font-family: OpenSans-Bold;
+    font-size: 1.5em;
 }
 
 #myBut{
     font-size: 1.25em;
-    width: 200px;
+    width: 150px;
     padding: 8px;
     border: none;
     border-radius: 8px;
@@ -69,7 +72,16 @@ label{
     opacity: 1;
 }
 
-#result{
+#resultBox{
     font-family: OpenSans-Bold;
-    font-size: 1.25em;
+    font-size: 1.5em;
+}
+
+#imgsBox{
+    padding: 10px;
+}
+
+#imgsBox img{
+    width: 100px;
+    margin: 4px;
 }

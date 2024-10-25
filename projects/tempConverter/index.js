@@ -1,5 +1,4 @@
 const numBox = document.getElementById('numBox');
-const tempType = document.getElementById('tempType');
 const cToF = document.getElementById('cToF');
 const fToC = document.getElementById('fToC');
 const result = document.getElementById('result');

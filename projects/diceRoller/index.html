@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tempareture Converter</title>
+    <title>Dice Roller</title>
     <link rel="stylesheet"; href="style.css">
 </head>
 <body>
-    <form>
-        <p id="tit">Tempareture Converter</p>
+    <div id="myBox">
+        <p id="tit">Dice Roller</p>
+        <label># of dices: </label><input type="number" id="numBox" value="1" min="1" max="100">
+        <button type="button" id="myBut" onclick="roller()">Roll Dice</button>
 
-        <input type="number" id="numBox" value="0">
-
-        <br><br><input type="radio"id="cToF" name="tempType"><label for="cToF">Cel ➞ Fah</label>
-        <input type="radio" id="fToC" name="tempType"><label for="fToC">Fah ➞ Cel</label>
-
-        <br><br><button type="button" id="myBut" onclick="converter()">Convert</button>
-
-        <br><p id="result"></p>
-    </form>
+        <div id="resultBox"></div>
+        <div id="imgsBox"></div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
