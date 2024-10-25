@@ -12,10 +12,10 @@ function toss(){
     let result = Math.round(Math.random());
 
     if(result){
-        result = '<span style="color: slateblue;">㊌</span>';
+        result = '<span style="color: slateblue;">㊞</span>';
     }
     else {
-        result = '<span style="color: crimson;">㊋</span>';
+        result = '<span style="color: crimson;">㊮</span>';
     }
     rec.push(result)
     document.getElementById('recBox').innerHTML = rec.join("");
