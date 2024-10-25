@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(/fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: Sacramento-Regular;
+    src: url(/fonts/Sacramento-Regular.ttf);
+}
+
+body {
+    font-family: OpenSans-Regular;
+    color: darkslategray;
+}
+
+form{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 10px auto;
+    border-radius: 16px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 16px silver;
+}
+
+#tit{
+    font-family: OpenSans-Bold;
+    font-size: 1.5em;
+    color: slateblue;
+}
+
+#numBox{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+label{
+    font-family: OpenSans-Bold;
+}
+
+#myBut{
+    font-size: 1.25em;
+    width: 200px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: slateblue;
+    color: whitesmoke;
+    transition: 0.25s;
+}
+
+#myBut:hover{
+    opacity: 0.75;
+}
+#myBut:active{
+    opacity: 1;
+}
+
+#result{
+    font-family: OpenSans-Bold;
+    font-size: 1.25em;
+}
