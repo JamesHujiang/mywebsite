@@ -1,1 +1,1 @@
-document.getElementById('myH1').textContent = Math.floor(Math.random() * 6) + 5
+document.getElementById('myBox').textContent = Math.max(...[2, 5,7])
