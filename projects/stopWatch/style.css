@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(/fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(/fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: Sacramento-Regular;
+    src: url(/fonts/Sacramento-Regular.ttf);
+}
+
+body {
+    font-family: OpenSans-Regular;
+    color: darkslategray;
+    display: flex;
+}
+
+#box {
+    background-color: whitesmoke;
+    min-width: 360px;
+    height: auto;
+    padding: 10px;
+    border-radius: 16px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 2px 2px 16px silver;
+}
+
+#display{
+    display: block;
+    text-align: center;
+    font-size: 3.9em;
+    font-family: Roboto-Black;
+}
+
+.buttons{
+    padding: 5px;
+    font-size: 1.1em;
+    background-color: slateblue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    min-width: 100px;
+    margin: 4px 8px;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+#startBtn{
+    background-color: green;
+}
+
+#resetBtn{
+    background-color: crimson;
+}
+
+.buttons:hover{
+    opacity: 0.75;
+}
