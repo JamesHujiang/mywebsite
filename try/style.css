@@ -18,34 +18,46 @@
     font-family: Sacramento-Regular;
     src: url(/fonts/Sacramento-Regular.ttf);
 }
+@font-face {
+    font-family: SourceCodePro-ExtraLight;
+    src: url(/fonts/SourceCodePro-ExtraLight.ttf);
+}
 
-html {
-    background-color: whitesmoke;
+* {
+    box-sizing: border-box;
 }
 
 body {
     color: darkslategray;
     display: flex;
     
+    font-family: SourceCodePro-ExtraLight;
 
     justify-content: center;
     align-items: center;
 
     margin: 0px;
-    width: 300px;
-    height: 500px;
-    background-color: darkslateblue;
-    box-sizing: border-box;
+    height: 100vh;
+    background-color: slateblue;
+
 }
 
 #myBox{
-    box-sizing: border-box;
-    background-color: whitesmoke;
+    background-color: darkslategray;
+    color: whitesmoke;
     margin: 10px 10px 10px 10px;
 
 
     border: 10px solid silver;
-    width: 70%;
+
+    width: 75%;
     height: 70%;
     align-items: center;
+    padding: 10px;
+}
+
+#myTitle{
+    font-family: OpenSans-Bold;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
 }

@@ -18,12 +18,16 @@
     font-family: Sacramento-Regular;
     src: url(fonts/Sacramento-Regular.ttf);
 }
+@font-face {
+    font-family: SourceCodePro-ExtraLight;
+    src: url(fonts/SourceCodePro-ExtraLight.ttf);
+}
 
 
 body {
     font-family: OpenSans-Regular;
     color: darkslategray;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 
 
@@ -38,7 +42,9 @@ body {
 
 #card {
     width: 360px;
+    min-width: 360px;
     height: 240px;
+    min-height: 240px;
     border-radius: 16px;
     background-color: whitesmoke;
     box-shadow: 2px 2px 16px silver;
