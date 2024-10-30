@@ -1,1 +1,1 @@
-document.getElementById('myBox').textContent = Math.max(...[2, 5,7])
+//document.getElementById('myBox').textContent = "";

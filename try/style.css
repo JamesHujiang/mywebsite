@@ -19,17 +19,33 @@
     src: url(/fonts/Sacramento-Regular.ttf);
 }
 
+html {
+    background-color: whitesmoke;
+}
+
 body {
     font-family: OpenSans-Regular;
     color: darkslategray;
     display: flex;
+
     justify-content: center;
+    align-items: center;
+
+    margin: 0px;
+    width: 300px;
+    height: 500px;
+    background-color: darkslateblue;
+    box-sizing: border-box;
 }
 
 #myBox{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    margin: 10px 10px 10px 10px;
 
 
-    border: 5px solid;
-    height: 100vh;
+    border: 10px solid silver;
+    width: 70%;
+    height: 70%;
     align-items: center;
 }
