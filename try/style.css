@@ -24,9 +24,9 @@ html {
 }
 
 body {
-    font-family: OpenSans-Regular;
     color: darkslategray;
     display: flex;
+    
 
     justify-content: center;
     align-items: center;
