@@ -19,38 +19,49 @@
     src: url(/fonts/Sacramento-Regular.ttf);
 }
 
+@font-face {
+    font-family: SourceCodePro-ExtraLight;
+    src: url(/fonts/SourceCodePro-ExtraLight.ttf);
+}
+
 body {
     font-family: OpenSans-Regular;
     color: darkslategray;
 }
 
-#countNumber{
-    display: block;
-    text-align: center;
-    font-size: 10em;
-    font-family: Roboto-Black;
-}
-
 #box {
-    background-color: whitesmoke;
+    background-color: darkslategray;
 
-    height: auto;
-    padding: 10px;
+    max-width: 390px;;
     border-radius: 16px;
     text-align: center;
     margin: auto;
     box-shadow: 2px 2px 16px silver;
+    overflow: hidden;
+}
+
+#countNumber{
+    display: block;
+    color: whitesmoke;
+    background-color: darkslategray;
+    border: none;
+    text-align: center;
+    font-size: 3em;
+    font-family: SourceCodePro-ExtraLight;
+    padding: 20px;
 }
 
 #buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
 }
 
 button{
     padding: 5px 15px;
-    font-size: 1.1em;
-    background-color: slateblue;
+    font-size: 2em;
+    background-color: silver;
     color: whitesmoke;
     height: 80px;
     width: 80px;
