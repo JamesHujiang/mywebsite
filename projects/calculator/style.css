@@ -27,39 +27,60 @@
 body {
     font-family: OpenSans-Regular;
     color: darkslategray;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #box {
     background-color: darkslategray;
-
-    max-width: 390px;;
-    border-radius: 16px;
-    text-align: center;
-    margin: auto;
+    max-width:410px;;
+    border-radius: 20px;
     box-shadow: 2px 2px 16px silver;
+
+}
+
+#displayBox{
+    margin: 30px;
+    margin-bottom: 0;
     overflow: hidden;
 }
 
-#countNumber{
-    display: block;
-    color: whitesmoke;
-    background-color: darkslategray;
-    border: none;
-    text-align: center;
-    font-size: 3em;
+#inputDisplay{
+    width: 350px;
+    padding: 10px 0px;
+    font-size: 2em;
     font-family: SourceCodePro-ExtraLight;
-    padding: 20px;
+    color: whitesmoke;
+    background-color: hwb(180 18% 59%);
+    border: none;
+    text-align: right;
+}
+
+#resultDisplay{
+    color: whitesmoke;
+    background-color: hwb(180 18% 59%);
+    padding: 10px 0px;
+    font-size: 3em;
+    text-align: right;
 }
 
 #buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    padding: 20px;
+    padding: 30px;
+}
+
+#equal{
+    height: 170px;
+    grid-column: 4;
+    grid-row: 4 / 6;
 }
 
 button{
-    padding: 5px 15px;
     font-size: 2em;
     background-color: silver;
     color: whitesmoke;
@@ -71,10 +92,14 @@ button{
     transition: opacity 0.25s;
 }
 
-#resetBtn{
+#clear{
     background-color: crimson;
 }
 
-.buttons:hover{
+.funcBtns{
+    background-color: slateblue;
+}
+
+button:hover{
     opacity: 0.75;
 }

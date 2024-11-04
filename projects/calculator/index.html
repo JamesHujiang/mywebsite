@@ -8,25 +8,30 @@
 </head>
 <body>
     <div id="box">
-        <input id="countNumber">
+        <div id="displayBox">
+            <input id="inputDisplay" readonly>
+            <div id="resultDisplay">0</div>
+        </div>
         <div id="buttons">
-            <button id="+" class="funcBtns">+</button>
-            <button id="7" class="numBtns">7</button>
-            <button id="8" class="numBtns">8</button>
-            <button id="9" class="numBtns">9</button>
-            <button id="-" class="funcBtns">-</button>
-            <button id="4" class="numBtns">4</button>
-            <button id="5" class="numBtns">5</button>
-            <button id="6" class="numBtns">6</button>
-            <button id="*" class="funcBtns">*</button>
-            <button id="1" class="numBtns">1</button>
-            <button id="2" class="numBtns">2</button>
-            <button id="3" class="numBtns">3</button>
-            <button id="/" class="funcBtns">/</button>
-            <button id="." class="numBtns">.</button>
-            <button id="0" class="numBtns">0</button>
-            <button id="C" class="funcBtns">C</button>
-            <button id="=" class="funcBtns">=</button>
+            <button id="+" class="funcBtns" onclick="append('+')">+</button>
+            <button id="7" class="numBtns" onclick="append('7')">7</button>
+            <button id="8" class="numBtns" onclick="append('8')">8</button>
+            <button id="9" class="numBtns" onclick="append('9')">9</button>
+            <button id="-" class="funcBtns" onclick="append('-')">-</button>
+            <button id="4" class="numBtns" onclick="append('4')">4</button>
+            <button id="5" class="numBtns" onclick="append('5')">5</button>
+            <button id="6" class="numBtns" onclick="append('6')">6</button>
+            <button id="*" class="funcBtns" onclick="append('*')">*</button>
+            <button id="1" class="numBtns" onclick="append('1')">1</button>
+            <button id="2" class="numBtns" onclick="append('2')">2</button>
+            <button id="3" class="numBtns" onclick="append('3')">3</button>
+            <button id="/" class="funcBtns" onclick="append('/')">/</button>
+            <button id="." class="numBtns" onclick="append('.')">.</button>
+            <button id="0" class="numBtns" onclick="append('0')">0</button>
+            <button id="equal" class="funcBtns" onclick="calculate()">=</button>
+            <button id="clear" class="funcBtns" onclick="clearDisplay()">C</button>
+            <button id="(" class="numBtns" onclick="append('(')">(</button>
+            <button id=")" class="numBtns" onclick="append(')')">)</button>
         </div>
     </div>
     <script src="index.js"></script>
