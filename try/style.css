@@ -29,35 +29,51 @@
 
 body {
     color: darkslategray;
-    display: flex;
+
     
     font-family: SourceCodePro-ExtraLight;
 
-    justify-content: center;
-    align-items: center;
+
 
     margin: 0px;
+    padding: 0px;
+
+    display: flex;
+
     height: 100vh;
-    background-color: slateblue;
 
 }
 
-#myBox{
-    background-color: darkslategray;
-    color: whitesmoke;
-    margin: 10px 10px 10px 10px;
-
-
-    border: 10px solid silver;
-
-    width: 75%;
-    height: 70%;
-    align-items: center;
-    padding: 10px;
+#myContainer{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    cursor: pointer;
 }
 
-#myTitle{
-    font-family: OpenSans-Bold;
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
+.box{
+    color: red;
+    text-shadow: 1px 1px 1px;
+}
+
+#box1{
+    background-color: silver;
+    /* align-self:baseline; */
+    margin-right: auto;
+}
+
+#box2{
+    background-color: blue;
+    /* align-self:center; */
+    margin:auto
+}
+
+#box3{
+    background-color: yellow;
+    /* align-self:self-end; */
+    margin-left: auto;
 }
