@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Game</title>
+    <link rel="stylesheet" href="main.css" 
 </head>
 <body>
-    
+    <div id="myTitle">Rock - Paper - Scissors</div>
+    <div id="resultDisplay">Go!</div>
+    <div id="recordDisplay">
+        Your Score: <span id="scoreNumber">0</span> by <span id="handsNumber">0</span> hands.
+    </div>
+    <div id="choice">
+        <button id="rockButton" class="buttons" onclick="game('rock')">👊</button>
+        <button id="paperButton" class="buttons" onclick="game('paper')">✋</button>
+        <button id="scissorsButton" class="buttons" onclick="game('scissors')">✌️</button>
+    </div>
 </body>
+<script src="index.js"></script>
 </html>
