@@ -1,29 +1,21 @@
-let startX = 0, startY = 0, offsetX, offsetY;
-const myContainer = document.getElementById("myContainer");
 
-myContainer.addEventListener("mousedown", mouseDown)
-
-function mouseDown(event){
-    offsetX = event.clientX - startX;
-    offsetY = event.clientY - startY;
+async function fetchData() {
     
-    myContainer.addEventListener("mousemove", mouseMove)
-    myContainer.addEventListener("mouseup", mouseUp)
-}
+    try{
+        const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
+        if(!response.ok){
+            throw new Error("Could not fetch resource!");
+        }
+        const data = await response.json();
+        const pokemonSprite = data.sprites.front_default;
+        const imageElement = document.getElementById("pokemonSprite");
 
-function mouseMove(event){
-    
+        imageElement.src = pokemonSprite;
+        imageElement.style.display = "block";
+    }
+    catch(error){
+        console.error(error);
+    }
 
-    myContainer.style.left = event.clientX - offsetX + 'px';
-    myContainer.style.top = event.clientY - offsetY + 'px';
-
-    startX = event.clientX - offsetX;
-    startY = event.clientY - offsetY;
-
-    myContainer.addEventListener("mouseup", mouseUp)
-
-}
-
-function mouseUp(event){
-    myContainer.removeEventListener("mousemove", mouseMove);
 }
